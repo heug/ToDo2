@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='ToDo2UITests.xctest' tests='3' failures='0'>
+  <testsuite name='ToDo2Tests.ToDo2Tests' tests='2' failures='0'>
+    <testcase classname='ToDo2Tests.ToDo2Tests' name='testAdd' time='0.004'/>
+    <testcase classname='ToDo2Tests.ToDo2Tests' name='testPerformanceExample' time='0.435'/>
+  </testsuite>
+  <testsuite name='ToDo2UITests.ToDo2UITests' tests='1' failures='0'>
+    <testcase classname='ToDo2UITests.ToDo2UITests' name='testExample' time='6.404'/>
+  </testsuite>
+</testsuites>

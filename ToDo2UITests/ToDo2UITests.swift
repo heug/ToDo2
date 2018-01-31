@@ -9,7 +9,12 @@
 import XCTest
 
 class ToDo2UITests: XCTestCase {
-        
+    
+//    let app = XCUIApplication()
+//    lazy var addItemButton = app.navigationBars["Eugene's To-Do List"].buttons["Add"]
+//    lazy var newToDoItemAlert = app.alerts["New to-do item"]
+//    lazy var textField = newToDoItemAlert.collectionViews.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 1).children(matching: .textField).element
+//
     override func setUp() {
         super.setUp()
         
@@ -31,6 +36,15 @@ class ToDo2UITests: XCTestCase {
     func testExample() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+//        addItemButton.tap()
+//        textField.typeText("Walk the dog")
+//        newToDoItemAlert.buttons["OK"].tap()
+//        XCTAssert(app.descendants(matching: .table).children(matching: .cell).count == 1)
+//        addItemButton.tap()
+//        textField.typeText("Wash hair")
+//        newToDoItemAlert.buttons["OK"].tap()
+//        XCTAssert(app.descendants(matching: .table).children(matching: .cell).count == 2)
     }
     
 }
